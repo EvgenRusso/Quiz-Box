@@ -1,0 +1,112 @@
+/*Вес селектора по идентификатору (#id) равен 100.
+Селекторы атрибутов ([href],  например), 
+селекторы по классам (.class-name) 
+и псевдоселекторы (:hover, например) имеют вес, равный 10. 
+Селекторы тегов (div, например) и селекторы псевдоэлементов (:after, например) 
+имеют вес 1. Универсальные селекторы (*, +, >, ~) имеют нулевой вес.*/
+
+
+.button {
+  width: 52px;
+height: 14px;
+left: 101px;
+top: 165px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: center;
+/* or 705% */
+
+display: center;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  width: 168px;
+  height: 55px;
+  left: 43px;
+  top: 144px;
+
+  background: #8F00FF;
+  border-radius: 5px;
+}
+
+.button:hover {
+  width: 168px;
+  height: 55px;
+  left: 43px;
+  top: 213px;
+
+  background: #741BBA;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+  border-radius: 5px;
+}
+
+.contacts__phone  {
+  width: 191px;
+height: 35px;
+left: 1340px;
+top: 26.64px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 35px;
+display: center;
+align-items: center;
+}
+
+.contact__phone-about {
+  position: absolute;
+width: 191px;
+height: 35px;
+left: 1340px;
+top: 26.64px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 35px;
+display: flex;
+align-items: center;
+}
+
+body {
+
+  background-color: #17191C;
+  font-family: 'Open Sans';
+  font-style: normal;
+  color: #FFFFFF;
+
+}
+
+
+
+.prewiev__image-top {
+  position: absolute;
+  width: 1920px;
+  height: 999px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: url(nbgB77C1HAg.jpg);
+mix-blend-mode: luminosity;
+box-shadow: inset 0px -46px 50px #17191C;
+}
+
+.prewiev__image-bot {
+  position: absolute;
+width: 1920px;
+height: 1018px;
+left: 0px;
+top: 1762px;
+z-index: -1;
+
+background: url(56278948-888x544.jpg);
+mix-blend-mode: luminosity;
+box-shadow: inset 0px -110px 80px #17191C;
+}
