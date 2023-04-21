@@ -5,37 +5,172 @@
 Селекторы тегов (div, например) и селекторы псевдоэлементов (:after, например) 
 имеют вес 1. Универсальные селекторы (*, +, >, ~) имеют нулевой вес.*/
 
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #17191C;
+  
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  padding: 0;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+p, h1 , h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  min-height: 129px;
+  margin-bottom: 80px;
+}
+
+.logo, .menu, .contacts {
+  position: absolute;
+}
+
+.logo {
+  top: 34px;
+}
+
+.contacts {
+  top: 27px;
+  font-style: normal;
+  text-align: right;
+  right: 5px;
+  
+}
+
+.contacts__phone {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+ 
+}
+
+.contacts__workhours {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: -7px;
+  text-decoration: underline;
+}
+
+
+.menu {
+  left: 549px;
+  transform: translateX(-50%);
+  top: 18px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 69px;
+}
+
+.menu__link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.menu__link:hover {
+  color: #8F00FF;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
+
+
+
+main {
+  position: relative;
+  min-height: 1751px;
+}
+
+.preview {
+  max-width: 637;
+}
+
+.preview__title {
+  width: 637px;
+  height: 194px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+  margin-bottom: 23px;
+}
+
+.preview__description {
+  font-size: 21px;
+  line-height: 29px;
+
+}
+
 
 .button {
-  width: 52px;
-height: 14px;
-left: 101px;
-top: 165px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: center;
-/* or 705% */
-
-display: center;
-align-items: center;
-text-transform: uppercase;
-
-color: #FFFFFF;
-  width: 168px;
-  height: 55px;
-  left: 43px;
-  top: 144px;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: center;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  min-width: 163px;
+  height: 56px;
+  margin-top: 71px;
+  
 
   background: #8F00FF;
   border-radius: 5px;
 }
 
+
 .button:hover {
-  width: 168px;
-  height: 55px;
+  width: 163px;
+  height: 56px;
   left: 43px;
   top: 213px;
 
@@ -44,69 +179,64 @@ color: #FFFFFF;
   border-radius: 5px;
 }
 
-.contacts__phone  {
-  width: 191px;
-height: 35px;
-left: 1340px;
-top: 26.64px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 35px;
-display: center;
-align-items: center;
+.games__description {
+  width: 320px;
+  height: 49px;
+  left: 392px;
+  
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-top: 191px;
 }
 
-.contact__phone-about {
-  position: absolute;
-width: 191px;
-height: 35px;
-left: 1340px;
-top: 26.64px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 35px;
-display: flex;
-align-items: center;
-}
-
-body {
-
+.games__header {
+  margin-bottom: 28px;
   background-color: #17191C;
-  font-family: 'Open Sans';
-  font-style: normal;
-  color: #FFFFFF;
-
+  
 }
 
-
-
-.prewiev__image-top {
-  position: absolute;
-  width: 1920px;
-  height: 999px;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  background: url(nbgB77C1HAg.jpg);
-mix-blend-mode: luminosity;
-box-shadow: inset 0px -46px 50px #17191C;
+.games__list {
+   margin-left: -43px;
 }
 
-.prewiev__image-bot {
-  position: absolute;
-width: 1920px;
-height: 1018px;
-left: 0px;
-top: 1762px;
-z-index: -1;
-
-background: url(56278948-888x544.jpg);
-mix-blend-mode: luminosity;
-box-shadow: inset 0px -110px 80px #17191C;
+.games__item {
+  width: 360px;
+  height: 448px;
+  background-color: #fff;
+  border-radius: 0px 0px 5px 5px;
+  display: inline-block;
+  
+  margin-right: 25px;
+  margin-top: 37px;
 }
+
+.games__item:last-child {
+  margin-right: 0px;
+}
+
+.games__content {
+ padding-top: 36px 30px;
+ color: #17191C;
+}
+
+.games__name {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.games__atributes {
+
+  display: inline-block;
+  vertical-align: top;
+}
+
+.paginator__item {
+  display: inline-block;
+}
+
+footer {
+  position: relative;
+}
+
