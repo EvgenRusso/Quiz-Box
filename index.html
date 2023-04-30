@@ -8,18 +8,19 @@
   <title>Quiz-Box</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
-<body>
+<body class="dark-page">
   <div class="wrapper main-page-wrapper">
     <div class="container">
 
       <header class="header">
         <a href="/" class="logo">
-          <img src="img/logo.png" alt="image" class="logo__pic">
+          <img src="/img/logo.png" alt="image" class="logo__pic">
         </a>
         <nav class="menu">
           <ul class="menu__list">
@@ -27,7 +28,7 @@
               <a href="/" class="menu__link">Главная</a>
             </li>
             <li class="menu__item">
-              <a href="/" class="menu__link">Игры</a>
+              <a href="/games.html" class="menu__link">Игры</a>
             </li>
             <li class="menu__item">
               <a href="/" class="menu__link">Отзывы</a>
@@ -49,10 +50,10 @@
         </div>
         <div class="games">
           <h2 class="games__description">Новинки недели</h2>
-          <ul class="games__list">
+          <ul class="games__list game__list--margin">
             <li class="games__item">
               <div class="games__header">
-                <img src="img/music.png" class="games__image" alt="image">
+                <img src="/img/music.png" class="games__image" alt="image">
               </div>
               <div class="games__content">
                 <h2 class="games__name">Музыкальная игра</h2>
@@ -76,7 +77,7 @@
 
             <li class="games__item">
               <div class="games__header">
-                <img src="img/90th.png" class="games__image" alt="image">
+                <img src="/img/90th.png" class="games__image" alt="image">
               </div>
               <div class="games__content">
                 <h2 class="games__name">Назад в 90-е</h2>
@@ -100,7 +101,7 @@
 
             <li class="games__item">
               <div class="games__header">
-                <img src="img/quiz-it.png" class="games__image" alt="image">
+                <img src="/img/quiz-it.png" class="games__image" alt="image">
               </div>
               <div class="games__content">
                 <h2 class="games__name">IT-викторина</h2>
@@ -127,7 +128,7 @@
           <h2 class="old-games__description">Прошедшие игры</h2>
           <ul class="old-games__list">
             <li class="old-games__item">
-              <img src="img/christmas-old.png" class="old-games__image" alt="image">
+              <img src="/img/christmas-old.png" class="old-games__image" alt="image">
               <div class="old-games__wrapper">
                 <div class="old-games__date">
                   <span class="old-games__day-value">1</span>
@@ -140,7 +141,7 @@
               </div>
             </li>
             <li class="old-games__item">
-              <img src="img/spring-old.png" class="old-games__image" alt="image">
+              <img src="/img/spring-old.png" class="old-games__image" alt="image">
               <div class="old-games__wrapper">
                 <div class="old-games__date">
                   <span class="old-games__day-value">8</span>
@@ -185,10 +186,10 @@
         </div>
         <div class="about">
           <div class="about__group">
-            <img src="img/about-group.png" class="about__group-pic" alt="image">
+            <img src="/img/about-group.png" class="about__group-pic" alt="image">
           </div>
           <div class="about__content">
-            <img src="img/about-back.png" class="about__image" alt="image">
+            <img src="/img/about-back.png" class="about__image" alt="image">
             <div class="about__wrapper">
               <h1 class="about__title">О нас</h1>
               <p class="about__description">
@@ -205,7 +206,7 @@
       </main>
       <footer class="footer">
         <a href="/" class="logo-f">
-          <img src="img/logo.png" alt="image" class="logo__pic">
+          <img src="/img/logo.png" alt="image" class="logo__pic">
         </a>
         <nav class="footer__menu">
           <ul class="menu__list-footer">

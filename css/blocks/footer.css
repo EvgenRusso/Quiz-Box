@@ -1,0 +1,131 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  min-height: 172px;
+  margin-top: 86px;
+  
+}
+
+
+.footer__menu {
+  margin-left: 33px;
+}
+
+.footer__contacts {
+  margin-right: 9px;
+}
+
+.footer__contacts-workhours {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  margin: 3px 0px 6px 25px;
+  text-decoration: none;
+}
+
+.menu__item-footer {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 63px;
+}
+
+.menu__link-footer {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.menu__link-footer:hover {
+  color: #8F00FF;
+}
+
+.menu__item-footer:last-child {
+  margin-right: 0px;
+}
+
+
+
+
+.contacts__phone-about {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 21px;
+  font-style: normal;
+  text-align: right;
+  right: 0px;
+}
+
+
+.socials-item {
+  display: inline-block;
+}
+
+
+
+
+
+.socials__elements {
+  position: relative;
+  display: inline-block;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.socials__item:last-child {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0;
+}
+
+.socials {
+  left: 702px;
+  top: -5px;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.socials__item--icon--telegram .socials__link {
+  background-image: url("./img/tg-two.png");
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+  background-image: url("./img/tg-one.png");
+}
+
+.socials__item--icon--vkontakte .socials__link {
+  background-image: url("./img/vk-two.png");
+}
+
+.socials__item--icon--vkontakte .socials__link:hover {
+  background-image: url("./img/vk-one.png");
+}
+
+.socials__item--icon--facebook .socials__link {
+  background-image: url("./img/fb-two.png");
+}
+
+.socials__item--icon--facebook .socials__link:hover {
+  background-image: url("./img/fb-one.png");
+}
+
+.socials__item--icon--instagram .socials__link {
+  background-image: url("./img/in-two.png");
+}
+
+.socials__item--icon--instagram .socials__link:hover {
+  background-image: url("./img/in-one.png");
+}

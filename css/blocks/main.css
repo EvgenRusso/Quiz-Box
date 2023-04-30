@@ -1,0 +1,9 @@
+main {
+  position: relative;
+  min-height: 1751px;
+}
+
+.main-page-wrapper {
+  background: url("../../img/back-top.png") center top no-repeat, url("../../img/back-bot.png") center bottom no-repeat, url("./img/back-screen.png");
+  box-shadow: inset 0px -46px 50px #17191C;
+}

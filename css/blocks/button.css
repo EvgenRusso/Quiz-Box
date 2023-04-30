@@ -1,0 +1,32 @@
+button {
+  background: transparent;
+  padding: 0;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.button {
+  
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: center;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 17px 39px;
+  background: #8F00FF;
+  border-radius: 5px;
+}
+
+.button.--small {
+  padding: 15px 29px;
+}
+
+.button:hover, .button:active {
+  cursor: pointer;
+  background: #741BBA;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
