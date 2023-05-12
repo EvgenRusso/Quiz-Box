@@ -95,7 +95,7 @@
 }
 
 .wrapper--games {
-  background: url("/img/Group-Offers.png") center top no-repeat;
+  background: url("img/Group-Offers.png") center top no-repeat;
 }
 
 .games {
@@ -356,35 +356,35 @@ line-height: 65px;
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url("./img/tg-two.png");
+  background-image: url("img/tg-two.png");
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-  background-image: url("./img/tg-one.png");
+  background-image: url("img/tg-one.png");
 }
 
 .socials__item--icon--vkontakte .socials__link {
-  background-image: url("./img/vk-two.png");
+  background-image: url("img/vk-two.png");
 }
 
 .socials__item--icon--vkontakte .socials__link:hover {
-  background-image: url("./img/vk-one.png");
+  background-image: url("img/vk-one.png");
 }
 
 .socials__item--icon--facebook .socials__link {
-  background-image: url("./img/fb-two.png");
+  background-image: url("img/fb-two.png");
 }
 
 .socials__item--icon--facebook .socials__link:hover {
-  background-image: url("./img/fb-one.png");
+  background-image: url("img/fb-one.png");
 }
 
 .socials__item--icon--instagram .socials__link {
-  background-image: url("./img/in-two.png");
+  background-image: url("img/in-two.png");
 }
 
 .socials__item--icon--instagram .socials__link:hover {
-  background-image: url("./img/in-one.png");
+  background-image: url("img/in-one.png");
 }
 
 .menu__link-footer:hover {
@@ -473,7 +473,7 @@ li.\.reviews__item.review {
 }
 
 .review__user::after {
-  content: url(/img/vk-blue\ 1.png);
+  content: url(img/vk-blue\ 1.png);
   height: 29px;
   margin-left: 5px;
 }
@@ -517,7 +517,7 @@ li.\.reviews__item.review {
 }
 
 .separator {
- background: #17191C url(/img/separator.png) right 20% bottom no-repeat;
+ background: #17191C url(img/separator.png) right 20% bottom no-repeat;
  min-height: 363px;
  font-weight: 700;
  color: #fff;
