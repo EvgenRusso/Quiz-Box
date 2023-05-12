@@ -99,33 +99,33 @@
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url("img/tg-two.png");
+  background-image: url("/img/tg-two.png");
 }
 
 .socials__item--icon--telegram .socials__link:hover {
-  background-image: url("img/tg-one.png");
+  background-image: url("/img/tg-one.png");
 }
 
 .socials__item--icon--vkontakte .socials__link {
-  background-image: url("img/vk-two.png");
+  background-image: url("/img/vk-two.png");
 }
 
 .socials__item--icon--vkontakte .socials__link:hover {
-  background-image: url("img/vk-one.png");
+  background-image: url("/img/vk-one.png");
 }
 
 .socials__item--icon--facebook .socials__link {
-  background-image: url("img/fb-two.png");
+  background-image: url("/img/fb-two.png");
 }
 
 .socials__item--icon--facebook .socials__link:hover {
-  background-image: url("img/fb-one.png");
+  background-image: url("/img/fb-one.png");
 }
 
 .socials__item--icon--instagram .socials__link {
-  background-image: url("img/in-two.png");
+  background-image: url("/img/in-two.png");
 }
 
 .socials__item--icon--instagram .socials__link:hover {
-  background-image: url("img/in-one.png");
+  background-image: url("/img/in-one.png");
 }
