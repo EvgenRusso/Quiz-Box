@@ -115,9 +115,9 @@
 }
 
 .games__atributes-content:first-child::before {
-  background-image: url(./img/clock.png);
+  background-image: url(.img/clock.png);
 }
 
 .games__atributes-content:last-child::before {
-  background-image: url(./img/qa.png);
+  background-image: url(.img/qa.png);
 }
