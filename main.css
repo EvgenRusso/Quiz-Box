@@ -3,7 +3,7 @@
 
 .wrapper__main {
   display: flex;
-  background: url(./img/Main-screen.jpg) no-repeat center;
+  background: url(img/Main-screen.jpg) no-repeat center;
   min-width: 100%;
   min-height: 100%;
   justify-content: space-around;
