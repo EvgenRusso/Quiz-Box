@@ -21,7 +21,7 @@ button {
   border-radius: 5px;
 }
 
-.button.--small {
+.button.button--small {
   padding: 15px 29px;
 }
 
