@@ -605,6 +605,7 @@ li.\.reviews__item.review {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
+  margin: 0 -10px -10px 0;
 }
 
 .controls__elem {
