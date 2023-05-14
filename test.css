@@ -81,6 +81,18 @@
   position: absolute;
 }
 
+.contact__menu::after {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: #EDEDED;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -5px;
+  right: 41px;
+}
+
 .contacts:hover .contact__menu {
   left: 950px;
   opacity: 0.8;
