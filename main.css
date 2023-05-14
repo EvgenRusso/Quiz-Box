@@ -4,8 +4,9 @@
 .wrapper__main {
   display: flex;
   background: url(img/Main-screen.jpg) no-repeat center;
-  min-width: 100%;
-  min-height: 100%;
+  width: 1920px;
+  height: 960px;
+  background-size: cover;
   justify-content: space-around;
   align-items: center;
 }
