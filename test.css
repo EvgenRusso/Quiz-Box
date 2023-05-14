@@ -519,7 +519,10 @@ li.\.reviews__item.review {
 }
 
 .review__content-text {
+  font-size: 16px;
+  line-height: 27px;
   margin-bottom: 50px;
+  color: #818181;
 }
 
 .review__date {
